@@ -1,5 +1,5 @@
-name = 'Boli'
-post_count = 47
+sentence = 'The quick brown fox jumped over the lazy dog'
+sentence_two = "That is my dog's bowl"
+sentence_three = "Tiffany said, \"That is my dog's bowl\""
 
-print(name)
-print(post_count)
+print(sentence_three)
