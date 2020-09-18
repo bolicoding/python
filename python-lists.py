@@ -89,8 +89,22 @@ Chelsey
 
 #print(query_uri)
 
-tags = ['python', 'development', 'tutorials', 'code']
+#tags = ['python', 'development', 'tutorials', 'code']
 
-tag_range = tags[2:3]
+#tag_range = tags[2:3]
+
+#print(tag_range)
+
+tags = [
+    'python',
+    'development',
+    'tutorials', 
+    'code',
+    'programming',
+    'computer science'
+]
+
+#tag_range = tags[:-1:2]
+tag_range = tags[::-1]
 
 print(tag_range)
