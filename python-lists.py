@@ -5,20 +5,34 @@ Ashley
 Chelsey
 """
 
+#users = ['Mili','Ashley','Chelsey']
+
+#print(users)
+
+#users.insert(0, 'Boli')
+
+#print(users)
+
+#users.append('Jr')
+
+#print(users)
+
+#print(users[2])
+
+#users[4] = 'Gera'
+
+#print(users)
+
+
 users = ['Mili','Ashley','Chelsey']
-
 print(users)
 
-users.insert(0, 'Boli')
-
+users.remove('Mili')
 print(users)
 
-users.append('Jr')
-
+popped_user = users.pop()
+print(popped_user)
 print(users)
 
-print(users[2])
-
-users[4] = 'Gera'
-
+del users[0]
 print(users)
