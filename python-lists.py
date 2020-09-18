@@ -37,17 +37,27 @@ Chelsey
 #del users[0]
 #print(users)
 
-users = ['Mili','Ashley','Chelsey', 'Boli']
+#users = ['Mili','Ashley','Chelsey', 'Boli']
 
-ids = [1, 2, 3, 4]
+#ids = [1, 2, 3, 4]
 
-mixed_list = [42, 10.3, 'Gomes', users]
+#mixed_list = [42, 10.3, 'Gomes', users]
 
-print(mixed_list)
+#print(mixed_list)
 
-user_list = mixed_list.pop()
+#user_list = mixed_list.pop()
 
-print(user_list)
-print(mixed_list)
+#print(user_list)
+#print(mixed_list)
 
-nested_list = [[123],[234],[345]]
+#nested_list = [[123],[234],[345]]
+
+tags = ['python', 'development', 'tutorials', 'code']
+
+number_of_tags = len(tags)
+last_item = tags[-1]
+index_of_last_item = tags.index(last_item)
+
+print(number_of_tags)
+print(last_item)
+print(index_of_last_item)
