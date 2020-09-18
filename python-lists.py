@@ -62,22 +62,29 @@ Chelsey
 #print(last_item)
 #print(index_of_last_item)
 
-tags = ['python', 'development', 'tutorials', 'code']
+#tags = ['python', 'development', 'tutorials', 'code']
 
-print(tags)
+#print(tags)
 
-tags.sort()
+#tags.sort()
 
-print(tags)
+#print(tags)
 
-tags.sort(reverse=True)
+#tags.sort(reverse=True)
 
-print(tags)
+#print(tags)
 
-totals = [234, 47, 4, 212]
+#totals = [234, 47, 4, 212]
 
-print(totals)
+#print(totals)
 
-totals.sort(reverse=True)
+#totals.sort(reverse=True)
 
-print(totals)
+#print(totals#
+
+uri = 'https://www.google.com/search?q='
+tags = ['python', 'development', 'tutorial']
+formatted_tags = '+'.join(tags)
+query_uri = f'{uri}{formatted_tags}'
+
+print(query_uri)
