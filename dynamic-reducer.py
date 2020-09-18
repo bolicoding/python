@@ -16,7 +16,7 @@ def dynamic_reducer(collection, op):
         '/': operator.truediv
     }
     
-    return reduce((lambda total, element: operators[op](total, element), collection)
+    return reduce((lambda total, element: operators[op](total, element), collection))
                   
   
   
