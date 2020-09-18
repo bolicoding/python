@@ -52,12 +52,32 @@ Chelsey
 
 #nested_list = [[123],[234],[345]]
 
+#tags = ['python', 'development', 'tutorials', 'code']
+
+#number_of_tags = len(tags)
+#last_item = tags[-1]
+#index_of_last_item = tags.index(last_item)
+
+#print(number_of_tags)
+#print(last_item)
+#print(index_of_last_item)
+
 tags = ['python', 'development', 'tutorials', 'code']
 
-number_of_tags = len(tags)
-last_item = tags[-1]
-index_of_last_item = tags.index(last_item)
+print(tags)
 
-print(number_of_tags)
-print(last_item)
-print(index_of_last_item)
+tags.sort()
+
+print(tags)
+
+tags.sort(reverse=True)
+
+print(tags)
+
+totals = [234, 47, 4, 212]
+
+print(totals)
+
+totals.sort(reverse=True)
+
+print(totals)
