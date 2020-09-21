@@ -109,6 +109,7 @@ tags = [
 
 #print(tag_range)
 
+
 sale_prices = [
     100,
     83,
@@ -121,7 +122,53 @@ sale_prices = [
     3
 ]
 
+n_num = [1, 2, 3, 4, 5]
+n = len(n_num)
+n_num.sort()
+
+if n % 2 == 0:
+    median1 = n_num[n//2]
+    median2 = n_num[n//2 - 1]
+    median = (median1 + median2)/2
+else:
+    median = n_num[n//2]
+    
+print("Median is: " + str(median))
+
+
+# Jordan Solution
+
+import math
+
+"""
+Tools:
+- math library
+- sorted function
+- list slicing
+- computations
+"""
+
+sale_prices = [
+  100,
+  83,
+  220,
+  40,
+  100,
+  400,
+  10,
+  1,
+  3
+]
+
 sorted_list = sorted(sale_prices)
+num_of_sales = len(sorted_list)
+half_slice = math.floor(num_of_sales/2)
+first_sales_items = sorted_list[:half_slice]
+last_sales_items = sorted_list[-(half_slice):]
+median = sorted_list[half_slice:(half_slice + 1)]
 
 print(sorted_list)
-print(sale_prices)
+print(num_of_sales)
+print(first_sales_items)
+print(last_sales_items)
+print(median)
