@@ -109,7 +109,7 @@ tags = [
 
 #print(tag_range)
 
-
+"""
 sale_prices = [
     100,
     83,
@@ -141,13 +141,14 @@ print("Median is: " + str(median))
 import math
 
 """
+"""
 Tools:
 - math library
 - sorted function
 - list slicing
 - computations
 """
-
+"""
 sale_prices = [
   100,
   83,
@@ -172,3 +173,16 @@ print(num_of_sales)
 print(first_sales_items)
 print(last_sales_items)
 print(median)
+"""
+
+tags = ['hi', 'hello', 'hey', 'bonjour', 'hola']
+
+# no
+# tags[-1] = 'programming'
+
+# tags.extend(['programming'])
+
+new_tags = tags + ['ni hao']
+
+print(new_tags)
+print(tags)
