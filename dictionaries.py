@@ -33,7 +33,7 @@ teams = {
     'spurs': ['Kane', 'Son', 'Bale'],
     'man city': ['Mahrez', 'Foden', 'Sterling']
 }
-"""
+
 import random
 def weighted_lottery(weights):
     container_list = []
@@ -52,3 +52,17 @@ other_weights = {
 weighted_lottery(other_weights)
 
 print(weighted_lottery(other_weights))
+"""
+
+sales = {
+    'google': 1,
+    'facebook': 2,
+    'twitter': 5,
+    'offline': 3
+}
+
+
+print('G ' + sales['google'] * '$')
+print('F ' + sales['facebook'] * '$')
+print('T ' + sales['twitter'] * '$')
+print('O ' + sales['offline'] * '$')
