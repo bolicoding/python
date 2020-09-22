@@ -43,6 +43,7 @@ print(list(priority_index.keys()))
 
 #print(list(scoreboard))
 
+"""
 tags = {
     'cb',
     'lw',
@@ -55,3 +56,33 @@ tags = {
 query_one = 'cb' in tags
 query_two = 'rb' in tags
 print(query_one)
+"""
+
+
+tags_one = {
+    'python',
+    'coding',
+    'tutor',
+    'coding'
+}
+
+tags_two = {
+    'ruby',
+    'coding',
+    'tutor',
+    'development'
+}
+
+#merged_tags = tags_one | tags_two
+
+#print(merged_tags)
+
+#exclusive_to_tag_one = tags_one - tags_two
+#print(exclusive_to_tag_one)
+
+
+#exclusive_to_tag_two = tags_two - tags_one
+#print(exclusive_to_tag_two)
+
+universal_tags = tags_one & tags_two
+print(universal_tags)
