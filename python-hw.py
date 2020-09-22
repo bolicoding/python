@@ -87,11 +87,11 @@ users = [
 print(users)
 """
 
-user = {
-  'username': 'boli',
-  'email': 'b@gmail.com',
-  'phone': '555-555-5555'
-}
+#user = {
+ # 'username': 'boli',
+  #'email': 'b@gmail.com',
+  #'phone': '555-555-5555'
+#}
 
 #for key, value in user.items():
  #print('Key =>', key)
@@ -102,3 +102,19 @@ user = {
   
 #for value in user.values():
  #print('Value =>', value)
+ 
+ #for num in range(6, 16):
+    #print(num)
+    
+#for num in range(10, 31, 2):
+    #print(num)
+    
+    
+
+fav_cereals = ['frosted flakes','shredded wheat',  'honey bunches']
+
+for cereal in fav_cereals:
+  if cereal == 'shredded wheat':
+    print(f'{cereal} is Gross!')
+    break
+  print(cereal + " is delicious")
