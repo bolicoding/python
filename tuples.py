@@ -36,9 +36,22 @@ priority_index = {
 print(list(priority_index.keys()))
 """
 
-positions = ['cb', 'lb', 'st', 'lw']
-players = ['Silva', 'Chilwell', 'Werner', 'Pulisic']
+#positions = ['cb', 'lb', 'st', 'lw']
+#players = ['Silva', 'Chilwell', 'Werner', 'Pulisic']
 
-scoreboard = zip(positions, players)
+#scoreboard = zip(positions, players)
 
-print(list(scoreboard))
+#print(list(scoreboard))
+
+tags = {
+    'cb',
+    'lw',
+    'st',
+    'lw'
+}
+
+#print(tags)
+
+query_one = 'cb' in tags
+query_two = 'rb' in tags
+print(query_one)
