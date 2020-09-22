@@ -111,6 +111,7 @@ print(users)
     
     
 
+"""
 fav_cereals = ['frosted flakes','shredded wheat',  'honey bunches']
 
 for cereal in fav_cereals:
@@ -118,3 +119,15 @@ for cereal in fav_cereals:
     print(f'{cereal} is Gross!')
     break
   print(cereal + " is delicious")
+  """
+
+
+dog_house = ['hndrx', 'joey', 'luna', 'rosco']
+  
+#while dog_house:
+  #print(dog_house.pop(0)) 
+  
+i = 0
+while i < len(dog_house):
+  print(dog_house[i])
+  i = i + 1
