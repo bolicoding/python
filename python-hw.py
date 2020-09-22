@@ -34,7 +34,7 @@ print(phonebook)
 """
 
 
-
+"""
 users = [
    {
     "id": 1,
@@ -85,3 +85,20 @@ users = [
 ]
 
 print(users)
+"""
+
+user = {
+  'username': 'boli',
+  'email': 'b@gmail.com',
+  'phone': '555-555-5555'
+}
+
+#for key, value in user.items():
+ #print('Key =>', key)
+ #print('Value =>', value)
+  
+#for key in user.keys():
+ #print('Key =>', key)
+  
+#for value in user.values():
+ #print('Value =>', value)
