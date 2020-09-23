@@ -159,6 +159,9 @@ def watermelon_party():
     
 watermelon_party()
 """
+
+
+"""
 def kid():
   
   age = 15
@@ -171,4 +174,37 @@ def kid():
     print(f'Can get license')
     
 kid()
+"""
+"""
+def age_verification(age):
+  if age < 25:
+    print(f'You cannot rent a car')
+  else:
+    print(f'you can rent whatever you want')   
+    
+age_verification(23)
+"""
+"""
+def age_verification(age):
+  print('Can\'t rent car' if age < 25 else 'can rent car')
+  
 
+age_verification(10)
+age_verification(2)
+"""
+
+sentence = 'Python is best!'
+word = 'the'
+
+if word in sentence:
+  print('The word is in the sentence')
+else: 
+  print('The word is not in the sentence')
+  
+nums = [1, 2, 3, 4]
+num = 6
+
+if num in nums:
+  print('The number was found')
+else:
+  print('The number was not found')
