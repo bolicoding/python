@@ -193,6 +193,7 @@ age_verification(10)
 age_verification(2)
 """
 
+"""
 sentence = 'Python is best!'
 word = 'the'
 
@@ -208,3 +209,14 @@ if num in nums:
   print('The number was found')
 else:
   print('The number was not found')
+"""
+
+a = 200
+b = 33
+c = 500 
+
+if a == 200 and b == 33:
+  print('both are True')
+  
+if c == 500 or b == 55:
+  print('at least one is True')
