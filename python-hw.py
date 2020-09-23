@@ -134,8 +134,41 @@ while i < len(dog_house):
 """
 
 #<h1>Hi</h1>
-def heading_generator(title, heading_type):
-  return(f'<h{heading_type}>{title}</h{heading_type}>')
+#def heading_generator(title, heading_type):
+ # return(f'<h{heading_type}>{title}</h{heading_type}>')
     
-print(heading_generator('Hi', 1))
- 
+#print(heading_generator('Hi', 1))
+
+"""
+answer = False
+
+if answer == False:
+  answer = True 
+  
+print(answer)
+"""
+"""
+def watermelon_party():
+  
+  watermelon: 36
+  
+  if watermelon > 50:
+    print(True)
+  else:
+    print(False)
+    
+watermelon_party()
+"""
+def kid():
+  
+  age = 15
+  
+  if age == 15:
+    print(f'Can get a permit, but not a liscense')
+  elif age < 15:
+    print(f'Can\'t get anything')
+  else:
+    print(f'Can get license')
+    
+kid()
+
