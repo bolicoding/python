@@ -121,7 +121,7 @@ for cereal in fav_cereals:
   print(cereal + " is delicious")
   """
 
-
+"""
 dog_house = ['hndrx', 'joey', 'luna', 'rosco']
   
 #while dog_house:
@@ -131,3 +131,11 @@ i = 0
 while i < len(dog_house):
   print(dog_house[i])
   i = i + 1
+"""
+
+#<h1>Hi</h1>
+def heading_generator(title, heading_type):
+  return(f'<h{heading_type}>{title}</h{heading_type}>')
+    
+print(heading_generator('Hi', 1))
+ 
