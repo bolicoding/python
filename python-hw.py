@@ -211,12 +211,79 @@ else:
   print('The number was not found')
 """
 
+"""
 a = 200
 b = 33
 c = 500 
 
-if a == 200 and b == 33:
+if a >= 200 and b == 33:
   print('both are True')
   
-if c == 500 or b == 55:
+if c == 500 or b > 55:
   print('at least one is True')
+"""
+
+"""
+def greeting():
+  print('Hello')
+  
+greeting()
+"""
+
+"""
+def greeting(name):
+  print(f'Hello, {name}')
+  
+greeting('boli')
+"""
+
+"""
+def sum_two_numbers(num1, num2):
+  print(num1 + num2)
+  
+sum_two_numbers(3, 5)
+"""
+
+"""
+def sum_two_numbers(num1, num2):
+  return num1 + num2
+
+result = sum_two_numbers(4, 17)
+
+print(result)
+"""
+
+"""
+def greeting(first, last):
+  def full_name():
+    return f'{first} {last}'
+  
+  print(f'Hi {full_name()}')
+  
+greeting('Ashley', 'Orozco')
+"""
+
+"""
+full_name = lambda first, last: f'{first} {last}'
+
+
+def greeting(name):
+  print(f'Hi there {name}')
+
+
+greeting(full_name('Kristine', 'Hudgens'))
+"""
+
+"""
+sum_of_numbers = lambda num1, num2: num1 + num2
+
+
+def adding_nums(num1, num2):
+      print(num1 + num2)
+
+adding_nums(sum_of_numbers(67, 234)):
+"""
+
+
+
+
