@@ -283,11 +283,45 @@ def adding_nums(numbers):
 
 adding_nums(sum_of_numbers(67, 234)):
 """
+
+"""
 numbers = lambda num_one, num_two:f'num_one + num_two'
 def sum(numbers):
     print(f'num_one + num_two')
 sum(numbers)
+"""
+
+"""
+class Dog:
+  
+  def speak(self):
+    return 'Woof'
+  def speak2(self):
+    return 'Bark'
+  
+dog_one = Dog()
+print(dog_one.speak())    
+      
+dog_two = Dog()
+print(dog_two.speak2())     
+"""
+
+class Cat:
+      
+      def __init__(self, name):
+            self.name = name
+      
+      def speak(self):
+        return 'meow'
+      
+      def get_name(self):
+        return self.name
+      
+hndrx = Cat('hndrx')
+print(hndrx.speak())
+print(hndrx.get_name()) 
 
 
-
-
+thugger = Cat('thugger')
+print(thugger.speak())
+print(thugger.get_name()) 
