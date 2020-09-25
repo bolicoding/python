@@ -275,14 +275,18 @@ greeting(full_name('Kristine', 'Hudgens'))
 """
 
 """
-sum_of_numbers = lambda num1, num2: num1 + num2
+numbers = lambda num1, num2: f'num1 + num2'
 
 
-def adding_nums(num1, num2):
-      print(num1 + num2)
+def adding_nums(numbers):
+      print(f'num1 + num2')
 
 adding_nums(sum_of_numbers(67, 234)):
 """
+numbers = lambda num_one, num_two:f'num_one + num_two'
+def sum(numbers):
+    print(f'num_one + num_two')
+sum(numbers)
 
 
 
