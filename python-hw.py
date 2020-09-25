@@ -305,7 +305,7 @@ print(dog_one.speak())
 dog_two = Dog()
 print(dog_two.speak2())     
 """
-
+"""
 class Cat:
       
       def __init__(self, name):
@@ -325,3 +325,33 @@ print(hndrx.get_name())
 thugger = Cat('thugger')
 print(thugger.speak())
 print(thugger.get_name()) 
+"""
+"""
+class Pet:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+  def get_name(self):
+    return self.name
+      
+class Dog(Pet):
+  def speak(self):
+    return 'Woof'
+  
+class Cat(Pet):
+  def speak(self):
+    return 'Meow'
+
+
+hndrx = Dog('Hndrx', '3')
+thugger = Cat('Thugger', '4')
+
+print(hndrx.speak())
+
+print(hndrx.get_name())
+
+print(thugger.speak())
+
+print(thugger.get_name())
+"""    
