@@ -355,3 +355,42 @@ print(thugger.speak())
 
 print(thugger.get_name())
 """    
+
+class Pet:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+  def get_name(self):
+    return self.name
+  
+  def speak(self):
+    return 'I don\'t speak'
+      
+class Dog(Pet):
+  def speak(self):
+    return 'Woof'
+  
+class Cat(Pet):
+  def speak(self):
+    return 'Meow'
+
+class Fish(Pet):
+  pass
+
+rocket = Fish('Rocket', '12')
+hndrx = Dog('Hndrx', '3')
+thugger = Cat('Thugger', '4')
+
+print(hndrx.speak())
+print(hndrx.get_name())
+
+print(thugger.speak())
+print(thugger.get_name())
+
+print(rocket.speak())
+print(rocket.get_name())
+
+list_of_animals = [hndrx, thugger, rocket]
+for animal in list_of_animals:
+  print(animal.name)
