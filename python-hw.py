@@ -355,7 +355,7 @@ print(thugger.speak())
 
 print(thugger.get_name())
 """    
-
+"""
 class Pet:
   def __init__(self, name, age):
     self.name = name
@@ -394,3 +394,5 @@ print(rocket.get_name())
 list_of_animals = [hndrx, thugger, rocket]
 for animal in list_of_animals:
   print(animal.name)
+"""
+
